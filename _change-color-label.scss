@@ -1,0 +1,339 @@
+@media(prefers-color-scheme: dark){
+    #change:checked ~ .main .m-function-block1__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .m-function-block1__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image{
+        background-color: #fff;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image{
+        background-color: #fff;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image{
+        background-color: #fff;
+    }
+    #change:checked ~ .main .toggle-div__image__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .toggle-div__image__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-menu-create-image__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-menu-create-image__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .feed-container__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .feed-container__img--black{
+        display: none;
+    }
+    #change:checked ~ .main .tagged-container__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .tagged-container__img--black{
+        display: none;
+    }
+    #change:checked ~ .main #menu-element-white{
+        display: block;
+    }
+    #change:checked ~ .main #menu-element-black{
+        display: none;
+    }
+
+    #change:checked ~ .main .menu-element-white{
+        display: block;
+    }
+    #change:checked ~ .main .menu-element-black{
+        display: none;
+    }
+    #change:checked ~ .main .aside-element-white{
+        display: block;
+    }
+    #change:checked ~ .main .aside-element-black{
+        display: none;
+    }
+    #change:checked ~ .main .complete-user--desktrop-content__nut__element--white{
+        display: block;
+    }
+    #change:checked ~ .main .complete-user--desktrop-content__nut__element--black{
+        display: none;
+    }
+    #change:checked ~ .main .icons__img--white{
+        display: block;
+    }
+    #change:checked ~ .main .icons__img--black{
+        display: none;
+    }
+
+}
+@media(prefers-color-scheme: light){
+    #change:checked ~ .main .m-function-block1__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .m-function-block1__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .toggle-div__image__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .toggle-div__image__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image{
+        background-color: #262626;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image{
+        background-color: #262626;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image{
+        background-color: #262626;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__report-image__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__account-image__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-toggle-container__logout-image__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .ligh-menu-create-image__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .ligh-menu-create-image__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .feed-container__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .feed-container__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .tagged-container__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .tagged-container__img--black{
+        display: block;
+    }
+    #change:checked ~ .main #menu-element-white{
+        display: none;
+    }
+    #change:checked ~ .main #menu-element-black{
+        display: block;
+    }
+
+    #change:checked ~ .main .menu-element-white{
+        display: none;
+    }
+    #change:checked ~ .main .menu-element-black{
+        display: block;
+    }
+    #change:checked ~ .main .aside-element-white{
+        display: none;
+    }
+    #change:checked ~ .main .aside-element-black{
+        display: block;
+    }
+    #change:checked ~ .main .icons__img--white{
+        display: none;
+    }
+    #change:checked ~ .main .icons__img--black{
+        display: block;
+    }
+    #change:checked ~ .main .complete-user--desktrop-content__nut__element--white{
+        display: none;
+    }
+    #change:checked ~ .main .complete-user--desktrop-content__nut__element--black{
+        display: block;
+    }
+}
+
+@media(min-width: 768px){
+    @media(prefers-color-scheme: dark){
+        #change:checked ~ .main #menu-element-white{
+            display: block;
+        }
+        #change:checked ~ .main #menu-element-black{
+            display: none;
+        }
+
+        #change:checked ~ .main #menu-element-white--2{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black--2{
+            display: none;
+        }
+    }
+    @media(prefers-color-scheme: light){
+        #change:checked ~ .main #menu-element-white{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black{
+            display: block;
+        }
+        #change:checked ~ .main #menu-element-white--2{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black--2{
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #change:checked ~ .main .icons__img--desktrop{
+        display: none;
+    }
+    #change:checked ~ .main .icons__img--desktrop{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    #change:checked ~ .main .icons__img{
+        display: none;
+    }
+    #change:checked ~ .main .icons__img{
+        display: none;
+    }
+}
+@media(min-width: 1264px){
+    @media(prefers-color-scheme: dark){
+        #change:checked ~ .main #menu-element-white{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black{
+            display: none;
+        }
+
+        #change:checked ~ .main #menu-element-white--2{
+            display: block;
+        }
+        #change:checked ~ .main #menu-element-black--2{
+            display: none;
+        }
+    }
+    @media(prefers-color-scheme: light){
+        #change:checked ~ .main #menu-element-white{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-white--2{
+            display: none;
+        }
+        #change:checked ~ .main #menu-element-black--2{
+            display: block;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+#change:checked ~ .main{
+    background-color: var(--change-background);
+}
+#change:checked ~ .main .content{
+    background-color: var(--change-background);
+}
+#change:checked ~ .main .footer{
+    color: var(--change-text);
+}
+#change:checked ~ .main .header{
+    background-color: var(--change-background);
+}
+#change:checked ~ .main .menu-element{
+    background-color: var(--change-background);
+    color: var(--change-text);
+}
+#change:checked ~ .main .menu-element__img--profile{
+    border: 2px solid var(--change-text);
+}
+#change:checked ~ .main .aside{
+    background-color: var(--change-background);
+    color: var(--change-text);
+}
+#change:checked ~ .main .m-function-block1{
+    background-color: var(--change-background);
+    color: var(--change-text);
+}
+#change:checked ~ .main .m-function-block2{
+    background-color: var(--change-background);
+    color: var(--change-text);
+}
+#change:checked ~ .main .icons{
+    background-color: var(--change-background);
+    color: var(--change-text);
+}
+#change:checked ~ .main .profile--mobile{
+    background-color: var(--change-background);
+}
+#change:checked ~ .main .complete-user--mobile-content{
+    color: var(--change-text);
+}
+#change:checked ~ .main .complete-user--mobile-content__button{
+    background-color: var(--change-text);
+    color: var(--change-background);
+}
+#change:checked ~ .main .name-user--mobile{
+    color: var(--change-text);
+}
+#change:checked ~ .main .numbers--mobile{
+    color: var(--change-text);
+}
+#change:checked ~ .main .complete-user--desktrop-content{
+    color: var(--change-text);
+}
+#change:checked ~ .main .complete-user--desktrop-content__button{
+    background-color: var(--change-text);
+    color: var(--change-background);
+}
+#change:checked ~ .main .name-user--desktrop{
+    color: var(--change-text);
+}
+#change:checked ~ .main .numbers--desktrop__element-p{
+    color: var(--change-text);
+}
+#change:checked ~ .main .numbers--desktrop__element{
+    color: var(--change-text);
+}
+#change:checked ~ .main .feed-container, .saved-container, .tagged-container{
+    background-color: var(--change-saved);
+}

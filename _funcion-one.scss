@@ -1,0 +1,111 @@
+.m-function{
+
+    &-block1{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 71px;
+    
+        width: 400px;
+        height: 100vh;
+        z-index: 2;
+
+        &__textone{
+            font-size: 27px;
+            padding: 24px 0px 0px 24px;
+        }
+        &__img{
+            padding: 32px 0px 19px 12px;
+        }
+        &__textwo{
+            font-size: 18px;
+            padding: 17px 0px 0px 24px;
+        }
+        &__div{
+            width: 100%;
+            height: 81%;
+            border-top: 1px solid white;
+
+            &__div{
+                display: flex;
+                flex-wrap: wrap;
+                align-content: center;
+                justify-content: center;
+
+                width: 100%;
+                height: 100%;
+
+                &__img{
+                    margin-bottom: 59px;
+                }
+            }
+        }
+    }
+    &-block2{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 71px;
+    
+        width: 400px;
+        height: 100vh;
+        overflow-y: scroll;
+        z-index: 2;
+
+        &__textone{
+            font-size: 26px;
+            padding: 31px 0px 0px 22px;
+        }
+        &__textwo{
+            font-size: 18px;
+            padding: 21px 0px 0px 23px;
+        }
+        &__texthree{
+            font-size: 18px;
+            padding: 21px 0px 0px 23px;
+        }
+        &__hover{
+            float: right;
+            position: relative;
+            top: -24px;
+            padding: 0px 36px 0px 0px;
+            font-size: 15px;
+            color: #0082f6;
+        }
+        &__div-one{
+            border-bottom: 1px solid white;
+
+            &__img{
+                padding: 17px 0px 12px 20px;
+            }
+        }
+        &__div-two{
+
+            &__img{
+                padding: 17px 0px 12px 20px;
+            }
+        }
+    }
+    &__label{
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 71px;
+        height: 54px;
+    }
+    &__label--one, &__label--two{
+        z-index: 9;
+    }
+}
+
+#m1:checked ~ .m-function-block1, #m2:checked ~ .m-function-block2{
+    display: none;
+}
+#m1:checked ~ .menu-element .m-function__label--three, #m2:checked ~ .menu-element .m-function__label--four{
+    z-index: 11;
+}
+#m3:checked ~ .m-function-block1, #m4:checked ~ .m-function-block2{
+    display: none;
+}
+

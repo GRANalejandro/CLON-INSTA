@@ -1,0 +1,112 @@
+.header{
+    position: fixed;
+    bottom: 0px;
+
+    width: 100%;
+    height: 10vh;
+    min-height: 51px;
+    max-height: 51px;
+    background-color: var(--black);
+    border-top: 1px solid #6e6e6e;
+    z-index: 2;
+}
+.menu{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    &-element{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 16.66%;
+        cursor: pointer;
+
+        &__img{
+            width: 29px;
+            height: 29px;
+            transition: all 0.2s ease-in-out;
+
+            &--profile{
+                border-radius: 50%;
+            }
+            &--logo:nth-child(2), &--logo:nth-child(4){
+                display: none;
+            }
+        }
+        &--desktrop{
+            display: none;
+        }
+        &__text{
+            display: none;
+        }
+    }
+    &-toggle{
+        cursor: pointer;
+    }
+}
+.menu-element:hover .menu-element__img{
+    transform: scale(1.11, 1.11)
+}
+.aside{
+    display: flex;
+
+    position: absolute;
+    top: 0px;
+
+    width: 100%;
+    min-height: 51px;
+    max-height: 51px;
+    padding: 0 16px;
+    background-color: var(--black);
+    border-bottom: 1px solid #6e6e6e;
+    z-index: 2;
+
+    &-setting{
+        flex-basis: 32px;
+
+        &__img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    &-account{
+        flex-grow: 1;
+        flex-basis: 100%;
+
+        font-size: 20px;
+        overflow: hidden;
+
+        &__text{
+            display: block;
+            position: relative;
+        }
+        &__text::before{
+            position: absolute;
+            content: "";
+            top: 0px;
+            right: -15px;
+            z-index: 4;
+            display: block;
+            width: 7px;
+            height: 7px;
+            rotate: -46deg;
+            border-bottom: 2px solid #ababab;
+            border-left: 2px solid #ababab;
+        }
+    }
+    &-addfriend{
+        flex-basis: 35px;
+
+        &__img{
+            width: 26px;
+            height: 20px;
+        }
+    }
+    &-element{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

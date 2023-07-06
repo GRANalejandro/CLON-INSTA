@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+
+    #m1:checked ~ .m-function-block1, #m2:checked ~ .m-function-block2{
+        display: block;
+    }
+    .slider-profile{
+        width: 86vw;
+        max-width: 916px;
+    }
+    .ligh-toggle-container{
+        display: block;
+    }
+}
+
+@media (min-width: 1264px){
+    .m-function-block1{
+        left: 67px;
+        z-index: 20;
+    }
+    .m-function-block2{
+        left: 66px;
+        z-index: 20;
+    }
+    .m-function__label{
+        left: -24px;
+        width: 242px;
+    }
+
+}
